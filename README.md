@@ -35,4 +35,4 @@ The authentication token must be placed inside the Positus configuration file.
 
 ## Documentation
 
-The documentation follows the same guidelines as the [regular php package].
+The documentation follows the same guidelines as the [regular php package](https://github.com/positusapps/positus-api-php-client).
