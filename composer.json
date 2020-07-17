@@ -1,0 +1,37 @@
+{
+    "name": "positus/positus-api-laravel-client",
+    "description": "Client library for Positus APIs",
+    "keywords": [
+        "positus",
+        "positus-api-laravel-client"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Caio Kawasaki",
+            "email": "caiokawasaki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": ">=5.3",
+        "positus/positus-api-php-client": "^0.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Positus\\Laravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Positus\\Laravel\\ClientServiceProvider"
+            ],
+            "aliases": {
+                "Positus": "Positus\\Laravel\\ClientFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
