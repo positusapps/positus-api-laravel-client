@@ -15,7 +15,7 @@
     "require": {
         "php": "^7.0",
         "laravel/framework": ">=5.3",
-        "positus/positus-api-php-client": "^0.0.6"
+        "positus/positus-api-php-client": "^0.0.7"
     },
     "autoload": {
         "psr-4": {
