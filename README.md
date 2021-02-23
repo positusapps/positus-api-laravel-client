@@ -14,7 +14,7 @@ composer require positus/positus-api-laravel-client
 After that, it is necessary to publish the configuration file:
 
 ````
-php artisan vendor:publish --provider=Positus\\Laravel\\ClientServiceProvider
+php artisan vendor:publish --provider="Positus\Laravel\ClientServiceProvider"
 ````
 
 ## Instantiating
