@@ -11,10 +11,16 @@ Use Composer to install it:
 composer require positus/positus-api-laravel-client
 ````
 
-After that, it is necessary to publish the configuration file:
+Publish the configuration file:
 
 ````
 php artisan vendor:publish --provider="Positus\Laravel\ClientServiceProvider"
+````
+
+Add the `POSITUS_API_TOKEN` variable to the .env file
+
+````
+POSITUS_API_TOKEN=token
 ````
 
 ## Instantiating
