@@ -1,9 +1,14 @@
 ## Requirements
 
 - PHP 7.4+
-- Laravel 5.3+
+- Laravel 7.0+
 
 ## Installing
+
+| Positus Client | Laravel ^6.0       | Laravel ^7.0       | Laravel ^8.0       |
+|----------------|--------------------|--------------------|--------------------|
+| 0.0.5          | :white_check_mark: | :x:                | :x:                |
+| 0.1.0          | :x:                | :white_check_mark: | :white_check_mark: |
 
 Use Composer to install it:
 
